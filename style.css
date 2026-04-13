@@ -599,6 +599,10 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
   font-weight: 600;
 }
 
+.proof .carousel-item .article .item-title p.name span {
+  font-weight: 500;
+}
+
 .proof .carousel-item .article .item-content .short-text, .proof .carousel-item .article .item-content .full-text {
   opacity: .8;
 }
