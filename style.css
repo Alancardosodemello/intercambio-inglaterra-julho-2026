@@ -881,7 +881,7 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
 
 @media (max-width: 767px) {
   .benefits .slick-carousel img {
-    max-height: 250px !important;
+    max-height: 300px !important;
   }
 }
 
