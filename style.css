@@ -977,11 +977,7 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
 
 @media (max-width: 1023px) {
   .card-content ul li::before {
-    font-size: 10px;
-    height: 20px;
-    min-height: 20px;
-    width: 20px;
-    min-width: 20px;
+    font-size: 12px;
   }
 }
 
