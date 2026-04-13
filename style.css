@@ -290,6 +290,12 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
   align-items: center;
 }
 
+@media (max-width: 767px) {
+  .cta-container {
+    flex-flow: column nowrap;
+  }
+}
+
 .btn {
   font-size: 14px;
   text-align: center;
@@ -306,9 +312,15 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
   font-weight: 600;
 }
 
-.hero .btn {
-  width: 220px;
-  max-width: 220px;
+.hero .btn, .cta-final .btn {
+  width: 100%;
+  max-width: 280px;
+}
+
+@media (min-width: 768px) {
+  .hero .btn, .cta-final .btn {
+    width: 220px;
+  }
 }
 
 @media (min-width: 1024px) {
