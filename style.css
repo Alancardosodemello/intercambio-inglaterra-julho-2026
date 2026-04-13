@@ -938,7 +938,7 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
 }
 
 .benefits .section-content h2 {
-  margin-bottom: 1rem;
+  margin: .5rem 0 1rem 0;
 }
 
 .benefits .section-content ul {
