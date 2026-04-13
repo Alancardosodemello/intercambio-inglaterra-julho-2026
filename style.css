@@ -895,12 +895,26 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
   font-weight: 600;
   padding: 7.5px 30px;
   border-radius: 6px;
+  width: max-content;
+  text-align: center;
 }
 
 .benefits .slick-carousel .slick-dots {
   position: absolute !important;
   bottom: 1rem !important;
   gap: 5px !important;
+}
+
+@media (max-width: 767px) {
+  .benefits .slick-carousel .slick-dots {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 }
 
 .benefits .slick-carousel .slick-arrow {
@@ -912,11 +926,11 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
 }
 
 .benefits .slick-carousel .slick-prev {
-  left: 1rem !important;
+  left: .5rem !important;
 }
 
 .benefits .slick-carousel .slick-next {
-  right: 1rem !important;
+  right: .5rem !important;
 }
 
 .benefits .section-content h2, .benefits .section-content .sub-header {
