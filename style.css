@@ -417,10 +417,6 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
     margin: -10px calc(-50vw + 50%) 0 calc(-50vw + 50%) !important;
     overflow-y: hidden;
   }
-
-  .slick-carousel .carousel-item {
-    flex: 1 0 82% !important;
-  }
 }
 
 .slick-carousel .slick-list {
@@ -450,6 +446,10 @@ body .site-header .site-header-primary .menu-container-top .menu-container-top-c
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding: 10px 0 10px 0;
+}
+
+.slick-carousel .slick-list .carousel-item:not(:last-of-type) {
   padding: 10px 20px 10px 0;
 }
 
